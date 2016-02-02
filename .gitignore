@@ -1,5 +1,7 @@
+/.DS_Store
 /.bundle/
 /.yardoc
+/calabash_drishyam.output
 /Gemfile.lock
 /_yardoc/
 /coverage/
