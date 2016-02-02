@@ -1,0 +1,1081 @@
+[2016-01-16 15:31:13] INFO  WEBrick 1.3.1
+[2016-01-16 15:31:13] INFO  ruby 2.2.0 (2014-12-25) [x86_64-darwin14]
+== Sinatra (v1.4.6) has taken the stage on 4321 for development with backup from WEBrick
+[2016-01-16 15:31:13] INFO  WEBrick::HTTPServer#start: pid=62078 port=4321
+WARN: tilt autoloading 'tilt/erubis' in a non thread-safe way; explicit require 'tilt/erubis' suggested.
+::1 - - [16/Jan/2016:15:31:18 -0800] "GET / HTTP/1.1" 200 1474 0.0247
+localhost - - [16/Jan/2016:15:31:18 PST] "GET / HTTP/1.1" 200 1474
+- -> /
+::1 - - [16/Jan/2016:15:31:18 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0008
+localhost - - [16/Jan/2016:15:31:18 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+== Sinatra has ended his set (crowd applauds)
+[2016-01-16 15:35:00] FATAL SystemExit: exit
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `exit'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `block (2 levels) in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `block (2 levels) in setup_traps'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1505:in `start_server'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1443:in `run!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:25:in `block in <top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `block in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call_as_daemon'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:269:in `start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:295:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:193:in `block in run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:192:in `run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:20:in `<top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `load'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `<main>'
+[2016-01-16 15:35:00] INFO  going to shutdown ...
+[2016-01-16 15:35:00] INFO  WEBrick::HTTPServer#start done.
+[2016-01-16 15:35:06] INFO  WEBrick 1.3.1
+[2016-01-16 15:35:06] INFO  ruby 2.2.0 (2014-12-25) [x86_64-darwin14]
+== Sinatra (v1.4.6) has taken the stage on 4321 for development with backup from WEBrick
+[2016-01-16 15:35:06] INFO  WEBrick::HTTPServer#start: pid=64723 port=4321
+WARN: tilt autoloading 'tilt/erubis' in a non thread-safe way; explicit require 'tilt/erubis' suggested.
+::1 - - [16/Jan/2016:15:35:06 -0800] "GET / HTTP/1.1" 200 1469 0.0266
+localhost - - [16/Jan/2016:15:35:06 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:06 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0009
+localhost - - [16/Jan/2016:15:35:06 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:07 -0800] "GET / HTTP/1.1" 200 1469 0.0009
+localhost - - [16/Jan/2016:15:35:07 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:07 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0006
+localhost - - [16/Jan/2016:15:35:07 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:09 -0800] "GET / HTTP/1.1" 200 1469 0.0012
+localhost - - [16/Jan/2016:15:35:09 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:09 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0008
+localhost - - [16/Jan/2016:15:35:09 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:09 -0800] "GET / HTTP/1.1" 200 1469 0.0010
+localhost - - [16/Jan/2016:15:35:09 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:09 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0006
+localhost - - [16/Jan/2016:15:35:09 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:09 -0800] "GET / HTTP/1.1" 200 1469 0.0010
+localhost - - [16/Jan/2016:15:35:09 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:09 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0005
+localhost - - [16/Jan/2016:15:35:09 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:09 -0800] "GET / HTTP/1.1" 200 1469 0.0009
+localhost - - [16/Jan/2016:15:35:09 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:09 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0005
+localhost - - [16/Jan/2016:15:35:09 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:10 -0800] "GET / HTTP/1.1" 200 1469 0.0010
+localhost - - [16/Jan/2016:15:35:10 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:10 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0011
+localhost - - [16/Jan/2016:15:35:10 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:10 -0800] "GET / HTTP/1.1" 200 1469 0.0010
+localhost - - [16/Jan/2016:15:35:10 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:10 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0007
+localhost - - [16/Jan/2016:15:35:10 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:10 -0800] "GET / HTTP/1.1" 200 1469 0.0024
+localhost - - [16/Jan/2016:15:35:10 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:10 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0005
+localhost - - [16/Jan/2016:15:35:10 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:10 -0800] "GET / HTTP/1.1" 200 1469 0.0010
+localhost - - [16/Jan/2016:15:35:10 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:10 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0007
+localhost - - [16/Jan/2016:15:35:10 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:10 -0800] "GET / HTTP/1.1" 200 1469 0.0018
+localhost - - [16/Jan/2016:15:35:10 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:10 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0008
+localhost - - [16/Jan/2016:15:35:10 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:11 -0800] "GET / HTTP/1.1" 200 1469 0.0011
+localhost - - [16/Jan/2016:15:35:11 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:11 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0008
+localhost - - [16/Jan/2016:15:35:11 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:11 -0800] "GET / HTTP/1.1" 200 1469 0.0012
+localhost - - [16/Jan/2016:15:35:11 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:11 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0007
+localhost - - [16/Jan/2016:15:35:11 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:11 -0800] "GET / HTTP/1.1" 200 1469 0.0010
+localhost - - [16/Jan/2016:15:35:11 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:11 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0009
+localhost - - [16/Jan/2016:15:35:11 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:11 -0800] "GET / HTTP/1.1" 200 1469 0.0010
+localhost - - [16/Jan/2016:15:35:11 PST] "GET / HTTP/1.1" 200 1469
+- -> /
+::1 - - [16/Jan/2016:15:35:11 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0010
+localhost - - [16/Jan/2016:15:35:11 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:17 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0004
+localhost - - [16/Jan/2016:15:35:17 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+- -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:35:17 -0800] "GET /__sinatra__/404.png HTTP/1.1" 200 18893 0.0012
+localhost - - [16/Jan/2016:15:35:17 PST] "GET /__sinatra__/404.png HTTP/1.1" 200 18893
+http://localhost:4321/stylesheets/style.css -> /__sinatra__/404.png
+::1 - - [16/Jan/2016:15:41:03 -0800] "GET / HTTP/1.1" 200 1497 0.0013
+localhost - - [16/Jan/2016:15:41:03 PST] "GET / HTTP/1.1" 200 1497
+- -> /
+::1 - - [16/Jan/2016:15:41:07 -0800] "GET / HTTP/1.1" 200 1497 0.0012
+localhost - - [16/Jan/2016:15:41:07 PST] "GET / HTTP/1.1" 200 1497
+- -> /
+::1 - - [16/Jan/2016:15:41:08 -0800] "GET /style.css HTTP/1.1" 404 530 0.0007
+localhost - - [16/Jan/2016:15:41:08 PST] "GET /style.css HTTP/1.1" 404 530
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:15:41:08 -0800] "GET / HTTP/1.1" 200 1497 0.0021
+localhost - - [16/Jan/2016:15:41:08 PST] "GET / HTTP/1.1" 200 1497
+- -> /
+::1 - - [16/Jan/2016:15:41:08 -0800] "GET /style.css HTTP/1.1" 404 530 0.0007
+localhost - - [16/Jan/2016:15:41:08 PST] "GET /style.css HTTP/1.1" 404 530
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:15:41:09 -0800] "GET / HTTP/1.1" 200 1497 0.0010
+localhost - - [16/Jan/2016:15:41:09 PST] "GET / HTTP/1.1" 200 1497
+- -> /
+::1 - - [16/Jan/2016:15:41:09 -0800] "GET /style.css HTTP/1.1" 404 530 0.0006
+localhost - - [16/Jan/2016:15:41:09 PST] "GET /style.css HTTP/1.1" 404 530
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:15:41:09 -0800] "GET / HTTP/1.1" 200 1497 0.0011
+localhost - - [16/Jan/2016:15:41:09 PST] "GET / HTTP/1.1" 200 1497
+- -> /
+::1 - - [16/Jan/2016:15:41:09 -0800] "GET /style.css HTTP/1.1" 404 530 0.0007
+localhost - - [16/Jan/2016:15:41:09 PST] "GET /style.css HTTP/1.1" 404 530
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:15:41:09 -0800] "GET / HTTP/1.1" 200 1497 0.0019
+localhost - - [16/Jan/2016:15:41:09 PST] "GET / HTTP/1.1" 200 1497
+- -> /
+::1 - - [16/Jan/2016:15:41:09 -0800] "GET /style.css HTTP/1.1" 404 530 0.0013
+localhost - - [16/Jan/2016:15:41:09 PST] "GET /style.css HTTP/1.1" 404 530
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:15:41:09 -0800] "GET / HTTP/1.1" 200 1497 0.0029
+localhost - - [16/Jan/2016:15:41:09 PST] "GET / HTTP/1.1" 200 1497
+- -> /
+::1 - - [16/Jan/2016:15:41:09 -0800] "GET /style.css HTTP/1.1" 404 530 0.0007
+localhost - - [16/Jan/2016:15:41:09 PST] "GET /style.css HTTP/1.1" 404 530
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:15:41:09 -0800] "GET / HTTP/1.1" 200 1497 0.0011
+localhost - - [16/Jan/2016:15:41:09 PST] "GET / HTTP/1.1" 200 1497
+- -> /
+::1 - - [16/Jan/2016:15:41:09 -0800] "GET /style.css HTTP/1.1" 404 530 0.0011
+localhost - - [16/Jan/2016:15:41:09 PST] "GET /style.css HTTP/1.1" 404 530
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:15:41:09 -0800] "GET / HTTP/1.1" 200 1497 0.0021
+localhost - - [16/Jan/2016:15:41:09 PST] "GET / HTTP/1.1" 200 1497
+- -> /
+::1 - - [16/Jan/2016:15:41:09 -0800] "GET /style.css HTTP/1.1" 404 530 0.0006
+localhost - - [16/Jan/2016:15:41:09 PST] "GET /style.css HTTP/1.1" 404 530
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:15:41:10 -0800] "GET / HTTP/1.1" 200 1497 0.0029
+localhost - - [16/Jan/2016:15:41:10 PST] "GET / HTTP/1.1" 200 1497
+- -> /
+::1 - - [16/Jan/2016:15:41:10 -0800] "GET /style.css HTTP/1.1" 404 530 0.0006
+localhost - - [16/Jan/2016:15:41:10 PST] "GET /style.css HTTP/1.1" 404 530
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:15:41:56 -0800] "GET / HTTP/1.1" 200 1490 0.0010
+localhost - - [16/Jan/2016:15:41:56 PST] "GET / HTTP/1.1" 200 1490
+- -> /
+::1 - - [16/Jan/2016:15:41:56 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0008
+localhost - - [16/Jan/2016:15:41:56 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:41:57 -0800] "GET / HTTP/1.1" 200 1490 0.0014
+localhost - - [16/Jan/2016:15:41:57 PST] "GET / HTTP/1.1" 200 1490
+- -> /
+::1 - - [16/Jan/2016:15:41:57 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0006
+localhost - - [16/Jan/2016:15:41:57 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:41:59 -0800] "GET / HTTP/1.1" 200 1490 0.0011
+localhost - - [16/Jan/2016:15:41:59 PST] "GET / HTTP/1.1" 200 1490
+- -> /
+::1 - - [16/Jan/2016:15:42:00 -0800] "GET / HTTP/1.1" 200 1490 0.0011
+localhost - - [16/Jan/2016:15:42:00 PST] "GET / HTTP/1.1" 200 1490
+- -> /
+::1 - - [16/Jan/2016:15:42:01 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0005
+localhost - - [16/Jan/2016:15:42:01 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+- -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:46:57 -0800] "GET /calabash_drishyam/ HTTP/1.1" 404 544 0.0004
+localhost - - [16/Jan/2016:15:46:57 PST] "GET /calabash_drishyam/ HTTP/1.1" 404 544
+- -> /calabash_drishyam/
+::1 - - [16/Jan/2016:15:50:25 -0800] "GET / HTTP/1.1" 200 1470 0.0011
+localhost - - [16/Jan/2016:15:50:25 PST] "GET / HTTP/1.1" 200 1470
+- -> /
+::1 - - [16/Jan/2016:15:50:25 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0005
+localhost - - [16/Jan/2016:15:50:25 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:50:29 -0800] "GET / HTTP/1.1" 200 1470 0.0010
+localhost - - [16/Jan/2016:15:50:29 PST] "GET / HTTP/1.1" 200 1470
+- -> /
+::1 - - [16/Jan/2016:15:51:03 -0800] "GET / HTTP/1.1" 200 1470 0.0012
+localhost - - [16/Jan/2016:15:51:03 PST] "GET / HTTP/1.1" 200 1470
+- -> /
+::1 - - [16/Jan/2016:15:51:03 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0008
+localhost - - [16/Jan/2016:15:51:03 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:51:03 -0800] "GET / HTTP/1.1" 200 1470 0.0014
+localhost - - [16/Jan/2016:15:51:03 PST] "GET / HTTP/1.1" 200 1470
+- -> /
+::1 - - [16/Jan/2016:15:51:03 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0005
+localhost - - [16/Jan/2016:15:51:03 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:51:03 -0800] "GET / HTTP/1.1" 200 1470 0.0010
+localhost - - [16/Jan/2016:15:51:03 PST] "GET / HTTP/1.1" 200 1470
+- -> /
+::1 - - [16/Jan/2016:15:51:03 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0006
+localhost - - [16/Jan/2016:15:51:03 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:51:03 -0800] "GET / HTTP/1.1" 200 1470 0.0010
+localhost - - [16/Jan/2016:15:51:03 PST] "GET / HTTP/1.1" 200 1470
+- -> /
+::1 - - [16/Jan/2016:15:51:03 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0006
+localhost - - [16/Jan/2016:15:51:03 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+== Sinatra has ended his set (crowd applauds)
+[2016-01-16 15:51:21] FATAL SystemExit: exit
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `exit'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `block (2 levels) in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `block (2 levels) in setup_traps'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1505:in `start_server'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1443:in `run!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:25:in `block in <top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `block in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call_as_daemon'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:269:in `start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:295:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:193:in `block in run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:192:in `run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:20:in `<top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `load'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `<main>'
+[2016-01-16 15:51:21] INFO  going to shutdown ...
+[2016-01-16 15:51:21] INFO  WEBrick::HTTPServer#start done.
+[2016-01-16 15:51:30] INFO  WEBrick 1.3.1
+[2016-01-16 15:51:30] INFO  ruby 2.2.0 (2014-12-25) [x86_64-darwin14]
+== Sinatra (v1.4.6) has taken the stage on 4321 for development with backup from WEBrick
+[2016-01-16 15:51:30] INFO  WEBrick::HTTPServer#start: pid=66347 port=4321
+WARN: tilt autoloading 'tilt/erubis' in a non thread-safe way; explicit require 'tilt/erubis' suggested.
+2016-01-16 15:51:32 - Errno::ENOTDIR - Not a directory @ rb_sysopen - /Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam.rb/calabash_drishyam/views/home.erb:
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:210:in `initialize'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:210:in `open'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:210:in `read_template_file'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:76:in `block in initialize'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:77:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:77:in `initialize'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:861:in `new'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:861:in `block in compile_template'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt.rb:88:in `fetch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:840:in `compile_template'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:821:in `render'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:666:in `erb'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam.rb:28:in `block in <class:CalabashDrishyam>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `block in compile!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/logger.rb:15:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:218:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:211:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+localhost - - [16/Jan/2016:15:51:31 PST] "GET / HTTP/1.1" 500 168564
+- -> /
+::1 - - [16/Jan/2016:15:51:32 -0800] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0067
+localhost - - [16/Jan/2016:15:51:32 PST] "GET /__sinatra__/500.png HTTP/1.1" 304 0
+http://localhost:4321/ -> /__sinatra__/500.png
+2016-01-16 15:52:52 - Errno::ENOTDIR - Not a directory @ rb_sysopen - /Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam.rb/calabash_drishyam/views/home.erb:
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:210:in `initialize'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:210:in `open'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:210:in `read_template_file'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:76:in `block in initialize'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:77:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:77:in `initialize'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:861:in `new'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:861:in `block in compile_template'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt.rb:88:in `fetch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:840:in `compile_template'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:821:in `render'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:666:in `erb'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam.rb:28:in `block in <class:CalabashDrishyam>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `block in compile!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/logger.rb:15:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:218:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:211:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+localhost - - [16/Jan/2016:15:52:52 PST] "GET / HTTP/1.1" 500 168355
+- -> /
+::1 - - [16/Jan/2016:15:52:52 -0800] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0009
+localhost - - [16/Jan/2016:15:52:52 PST] "GET /__sinatra__/500.png HTTP/1.1" 304 0
+http://localhost:4321/ -> /__sinatra__/500.png
+== Sinatra has ended his set (crowd applauds)
+[2016-01-16 15:52:59] FATAL SystemExit: exit
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `exit'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `block (2 levels) in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `block (2 levels) in setup_traps'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1505:in `start_server'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1443:in `run!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:25:in `block in <top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `block in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call_as_daemon'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:269:in `start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:295:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:193:in `block in run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:192:in `run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:20:in `<top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `load'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `<main>'
+[2016-01-16 15:52:59] INFO  going to shutdown ...
+[2016-01-16 15:53:00] INFO  WEBrick::HTTPServer#start done.
+[2016-01-16 15:53:06] INFO  WEBrick 1.3.1
+[2016-01-16 15:53:06] INFO  ruby 2.2.0 (2014-12-25) [x86_64-darwin14]
+== Sinatra (v1.4.6) has taken the stage on 4321 for development with backup from WEBrick
+[2016-01-16 15:53:06] INFO  WEBrick::HTTPServer#start: pid=67154 port=4321
+WARN: tilt autoloading 'tilt/erubis' in a non thread-safe way; explicit require 'tilt/erubis' suggested.
+::1 - - [16/Jan/2016:15:53:08 -0800] "GET / HTTP/1.1" 200 1470 0.0259
+localhost - - [16/Jan/2016:15:53:08 PST] "GET / HTTP/1.1" 200 1470
+- -> /
+::1 - - [16/Jan/2016:15:53:08 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0007
+localhost - - [16/Jan/2016:15:53:08 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:15:53:13 -0800] "GET / HTTP/1.1" 200 1470 0.0010
+localhost - - [16/Jan/2016:15:53:13 PST] "GET / HTTP/1.1" 200 1470
+- -> /
+::1 - - [16/Jan/2016:15:59:19 -0800] "GET / HTTP/1.1" 200 1470 0.0010
+localhost - - [16/Jan/2016:15:59:19 PST] "GET / HTTP/1.1" 200 1470
+- -> /
+::1 - - [16/Jan/2016:15:59:19 -0800] "GET /stylesheets/style.css HTTP/1.1" 200 6303 0.0010
+localhost - - [16/Jan/2016:15:59:19 PST] "GET /stylesheets/style.css HTTP/1.1" 200 6303
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:16:01:20 -0800] "GET / HTTP/1.1" 200 1470 0.0010
+localhost - - [16/Jan/2016:16:01:20 PST] "GET / HTTP/1.1" 200 1470
+- -> /
+::1 - - [16/Jan/2016:16:01:20 -0800] "GET /stylesheets/style.css HTTP/1.1" 200 6313 0.0006
+localhost - - [16/Jan/2016:16:01:20 PST] "GET /stylesheets/style.css HTTP/1.1" 200 6313
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:16:01:21 -0800] "GET / HTTP/1.1" 200 1470 0.0010
+localhost - - [16/Jan/2016:16:01:21 PST] "GET / HTTP/1.1" 200 1470
+- -> /
+::1 - - [16/Jan/2016:16:01:21 -0800] "GET /stylesheets/style.css HTTP/1.1" 304 - 0.0007
+localhost - - [16/Jan/2016:16:01:21 PST] "GET /stylesheets/style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /stylesheets/style.css
+== Sinatra has ended his set (crowd applauds)
+[2016-01-16 16:04:11] FATAL SystemExit: exit
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `exit'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `block (2 levels) in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `block (2 levels) in setup_traps'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1505:in `start_server'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1443:in `run!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:25:in `block in <top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `block in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call_as_daemon'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:269:in `start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:295:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:193:in `block in run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:192:in `run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:20:in `<top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `load'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `<main>'
+[2016-01-16 16:04:11] INFO  going to shutdown ...
+[2016-01-16 16:04:11] INFO  WEBrick::HTTPServer#start done.
+[2016-01-16 16:04:18] INFO  WEBrick 1.3.1
+[2016-01-16 16:04:18] INFO  ruby 2.2.0 (2014-12-25) [x86_64-darwin14]
+== Sinatra (v1.4.6) has taken the stage on 4321 for development with backup from WEBrick
+[2016-01-16 16:04:18] INFO  WEBrick::HTTPServer#start: pid=68333 port=4321
+WARN: tilt autoloading 'tilt/erubis' in a non thread-safe way; explicit require 'tilt/erubis' suggested.
+::1 - - [16/Jan/2016:16:04:23 -0800] "GET / HTTP/1.1" 200 1470 0.0256
+localhost - - [16/Jan/2016:16:04:23 PST] "GET / HTTP/1.1" 200 1470
+- -> /
+::1 - - [16/Jan/2016:16:04:23 -0800] "GET /stylesheets/style.css HTTP/1.1" 404 547 0.0006
+localhost - - [16/Jan/2016:16:04:23 PST] "GET /stylesheets/style.css HTTP/1.1" 404 547
+http://localhost:4321/ -> /stylesheets/style.css
+::1 - - [16/Jan/2016:16:05:42 -0800] "GET / HTTP/1.1" 200 1455 0.0010
+localhost - - [16/Jan/2016:16:05:42 PST] "GET / HTTP/1.1" 200 1455
+- -> /
+::1 - - [16/Jan/2016:16:05:42 -0800] "GET /style.css HTTP/1.1" 200 6303 0.0010
+localhost - - [16/Jan/2016:16:05:42 PST] "GET /style.css HTTP/1.1" 200 6303
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:06:12 -0800] "GET / HTTP/1.1" 200 1455 0.0010
+localhost - - [16/Jan/2016:16:06:12 PST] "GET / HTTP/1.1" 200 1455
+- -> /
+::1 - - [16/Jan/2016:16:06:12 -0800] "GET /style.css HTTP/1.1" 200 6305 0.0008
+localhost - - [16/Jan/2016:16:06:12 PST] "GET /style.css HTTP/1.1" 200 6305
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:06:12 -0800] "GET / HTTP/1.1" 200 1455 0.0009
+localhost - - [16/Jan/2016:16:06:12 PST] "GET / HTTP/1.1" 200 1455
+- -> /
+::1 - - [16/Jan/2016:16:06:12 -0800] "GET /style.css HTTP/1.1" 304 - 0.0006
+localhost - - [16/Jan/2016:16:06:12 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:06:13 -0800] "GET / HTTP/1.1" 200 1455 0.0011
+localhost - - [16/Jan/2016:16:06:13 PST] "GET / HTTP/1.1" 200 1455
+- -> /
+::1 - - [16/Jan/2016:16:06:13 -0800] "GET /style.css HTTP/1.1" 304 - 0.0006
+localhost - - [16/Jan/2016:16:06:13 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:06:13 -0800] "GET / HTTP/1.1" 200 1455 0.0010
+localhost - - [16/Jan/2016:16:06:13 PST] "GET / HTTP/1.1" 200 1455
+- -> /
+::1 - - [16/Jan/2016:16:06:13 -0800] "GET /style.css HTTP/1.1" 304 - 0.0004
+localhost - - [16/Jan/2016:16:06:13 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:06:13 -0800] "GET / HTTP/1.1" 200 1455 0.0010
+localhost - - [16/Jan/2016:16:06:13 PST] "GET / HTTP/1.1" 200 1455
+- -> /
+::1 - - [16/Jan/2016:16:06:13 -0800] "GET /style.css HTTP/1.1" 304 - 0.0007
+localhost - - [16/Jan/2016:16:06:13 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:06:13 -0800] "GET / HTTP/1.1" 200 1455 0.0050
+localhost - - [16/Jan/2016:16:06:13 PST] "GET / HTTP/1.1" 200 1455
+- -> /
+::1 - - [16/Jan/2016:16:06:13 -0800] "GET /style.css HTTP/1.1" 304 - 0.0010
+localhost - - [16/Jan/2016:16:06:13 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:06:39 -0800] "GET /style.css HTTP/1.1" 304 - 0.0004
+localhost - - [16/Jan/2016:16:06:39 PST] "GET /style.css HTTP/1.1" 304 0
+- -> /style.css
+::1 - - [16/Jan/2016:16:08:59 -0800] "GET / HTTP/1.1" 200 1455 0.0010
+localhost - - [16/Jan/2016:16:08:59 PST] "GET / HTTP/1.1" 200 1455
+- -> /
+::1 - - [16/Jan/2016:16:08:59 -0800] "GET /style.css HTTP/1.1" 200 6304 0.0007
+localhost - - [16/Jan/2016:16:08:59 PST] "GET /style.css HTTP/1.1" 200 6304
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:09:00 -0800] "GET / HTTP/1.1" 200 1455 0.0009
+localhost - - [16/Jan/2016:16:09:00 PST] "GET / HTTP/1.1" 200 1455
+- -> /
+::1 - - [16/Jan/2016:16:09:00 -0800] "GET /style.css HTTP/1.1" 304 - 0.0005
+localhost - - [16/Jan/2016:16:09:00 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:09:30 -0800] "GET / HTTP/1.1" 200 1455 0.0011
+localhost - - [16/Jan/2016:16:09:30 PST] "GET / HTTP/1.1" 200 1455
+- -> /
+::1 - - [16/Jan/2016:16:09:30 -0800] "GET /style.css HTTP/1.1" 200 6298 0.0008
+localhost - - [16/Jan/2016:16:09:30 PST] "GET /style.css HTTP/1.1" 200 6298
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:09:30 -0800] "GET /bg.gif HTTP/1.1" 200 280 0.0007
+localhost - - [16/Jan/2016:16:09:30 PST] "GET /bg.gif HTTP/1.1" 200 280
+http://localhost:4321/style.css -> /bg.gif
+== Sinatra has ended his set (crowd applauds)
+[2016-01-16 16:11:36] FATAL SystemExit: exit
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `exit'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `block (2 levels) in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `block (2 levels) in setup_traps'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1505:in `start_server'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1443:in `run!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:25:in `block in <top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `block in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call_as_daemon'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:269:in `start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:295:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:193:in `block in run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:192:in `run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:20:in `<top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `load'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `<main>'
+[2016-01-16 16:11:36] INFO  going to shutdown ...
+[2016-01-16 16:11:36] INFO  WEBrick::HTTPServer#start done.
+[2016-01-16 16:16:35] INFO  WEBrick 1.3.1
+[2016-01-16 16:16:35] INFO  ruby 2.2.0 (2014-12-25) [x86_64-darwin14]
+== Sinatra (v1.4.6) has taken the stage on 4321 for development with backup from WEBrick
+[2016-01-16 16:16:35] INFO  WEBrick::HTTPServer#start: pid=69439 port=4321
+WARN: tilt autoloading 'tilt/erubis' in a non thread-safe way; explicit require 'tilt/erubis' suggested.
+::1 - - [16/Jan/2016:16:16:36 -0800] "GET / HTTP/1.1" 200 348 0.0219
+localhost - - [16/Jan/2016:16:16:36 PST] "GET / HTTP/1.1" 200 348
+- -> /
+::1 - - [16/Jan/2016:16:16:36 -0800] "GET /style.css HTTP/1.1" 304 - 0.0007
+localhost - - [16/Jan/2016:16:16:36 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:40:46 -0800] "GET / HTTP/1.1" 200 1430 0.0019
+localhost - - [16/Jan/2016:16:40:46 PST] "GET / HTTP/1.1" 200 1430
+- -> /
+::1 - - [16/Jan/2016:16:40:46 -0800] "GET /style.css HTTP/1.1" 304 - 0.0007
+localhost - - [16/Jan/2016:16:40:46 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+== Sinatra has ended his set (crowd applauds)
+[2016-01-16 16:48:02] FATAL SystemExit: exit
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `exit'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `block (2 levels) in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `block (2 levels) in setup_traps'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1505:in `start_server'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1443:in `run!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:25:in `block in <top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `block in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call_as_daemon'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:269:in `start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:295:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:193:in `block in run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:192:in `run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:20:in `<top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `load'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `<main>'
+[2016-01-16 16:48:02] INFO  going to shutdown ...
+[2016-01-16 16:48:02] INFO  WEBrick::HTTPServer#start done.
+[2016-01-16 16:48:10] INFO  WEBrick 1.3.1
+[2016-01-16 16:48:10] INFO  ruby 2.2.0 (2014-12-25) [x86_64-darwin14]
+== Sinatra (v1.4.6) has taken the stage on 4321 for development with backup from WEBrick
+[2016-01-16 16:48:10] INFO  WEBrick::HTTPServer#start: pid=71169 port=4321
+WARN: tilt autoloading 'tilt/erubis' in a non thread-safe way; explicit require 'tilt/erubis' suggested.
+::1 - - [16/Jan/2016:16:48:29 -0800] "GET / HTTP/1.1" 200 1554 0.0337
+localhost - - [16/Jan/2016:16:48:29 PST] "GET / HTTP/1.1" 200 1554
+- -> /
+::1 - - [16/Jan/2016:16:48:29 -0800] "GET /style.css HTTP/1.1" 304 - 0.0006
+localhost - - [16/Jan/2016:16:48:29 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+== Sinatra has ended his set (crowd applauds)
+[2016-01-16 16:53:17] FATAL SystemExit: exit
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `exit'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `block (2 levels) in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `block (2 levels) in setup_traps'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1505:in `start_server'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1443:in `run!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:25:in `block in <top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `block in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call_as_daemon'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:269:in `start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:295:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:193:in `block in run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:192:in `run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:20:in `<top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `load'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `<main>'
+[2016-01-16 16:53:17] INFO  going to shutdown ...
+[2016-01-16 16:53:17] INFO  WEBrick::HTTPServer#start done.
+[2016-01-16 16:53:25] INFO  WEBrick 1.3.1
+[2016-01-16 16:53:25] INFO  ruby 2.2.0 (2014-12-25) [x86_64-darwin14]
+== Sinatra (v1.4.6) has taken the stage on 4321 for development with backup from WEBrick
+[2016-01-16 16:53:25] INFO  WEBrick::HTTPServer#start: pid=72112 port=4321
+WARN: tilt autoloading 'tilt/erubis' in a non thread-safe way; explicit require 'tilt/erubis' suggested.
+::1 - - [16/Jan/2016:16:54:40 -0800] "GET / HTTP/1.1" 200 1554 0.0232
+localhost - - [16/Jan/2016:16:54:40 PST] "GET / HTTP/1.1" 200 1554
+- -> /
+::1 - - [16/Jan/2016:16:54:40 -0800] "GET /style.css HTTP/1.1" 304 - 0.0009
+localhost - - [16/Jan/2016:16:54:40 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:54:41 -0800] "GET / HTTP/1.1" 200 1554 0.0010
+localhost - - [16/Jan/2016:16:54:41 PST] "GET / HTTP/1.1" 200 1554
+- -> /
+::1 - - [16/Jan/2016:16:54:41 -0800] "GET /style.css HTTP/1.1" 304 - 0.0006
+localhost - - [16/Jan/2016:16:54:41 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:54:42 -0800] "GET / HTTP/1.1" 200 1554 0.0010
+localhost - - [16/Jan/2016:16:54:42 PST] "GET / HTTP/1.1" 200 1554
+- -> /
+::1 - - [16/Jan/2016:16:54:42 -0800] "GET /style.css HTTP/1.1" 304 - 0.0006
+localhost - - [16/Jan/2016:16:54:42 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:54:42 -0800] "GET / HTTP/1.1" 200 1554 0.0010
+localhost - - [16/Jan/2016:16:54:42 PST] "GET / HTTP/1.1" 200 1554
+- -> /
+::1 - - [16/Jan/2016:16:54:42 -0800] "GET /style.css HTTP/1.1" 304 - 0.0005
+localhost - - [16/Jan/2016:16:54:42 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+::1 - - [16/Jan/2016:16:54:42 -0800] "GET / HTTP/1.1" 200 1554 0.0020
+localhost - - [16/Jan/2016:16:54:42 PST] "GET / HTTP/1.1" 200 1554
+- -> /
+::1 - - [16/Jan/2016:16:54:42 -0800] "GET /style.css HTTP/1.1" 304 - 0.0007
+localhost - - [16/Jan/2016:16:54:42 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+== Sinatra has ended his set (crowd applauds)
+[2016-01-16 17:12:09] FATAL SystemExit: exit
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `exit'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `block (2 levels) in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `block (2 levels) in setup_traps'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1505:in `start_server'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1443:in `run!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:25:in `block in <top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `block in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call_as_daemon'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:269:in `start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:295:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:193:in `block in run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:192:in `run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:20:in `<top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `load'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `<main>'
+[2016-01-16 17:12:09] INFO  going to shutdown ...
+[2016-01-16 17:12:09] INFO  WEBrick::HTTPServer#start done.
+[2016-01-16 17:12:17] INFO  WEBrick 1.3.1
+[2016-01-16 17:12:17] INFO  ruby 2.2.0 (2014-12-25) [x86_64-darwin14]
+== Sinatra (v1.4.6) has taken the stage on 4321 for development with backup from WEBrick
+[2016-01-16 17:12:17] INFO  WEBrick::HTTPServer#start: pid=73484 port=4321
+WARN: tilt autoloading 'tilt/erubis' in a non thread-safe way; explicit require 'tilt/erubis' suggested.
+2016-01-16 17:12:19 - NameError - undefined local variable or method `screenshot_image_name' for #<CalabashDrishyam:0x007fbcbc056420>:
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/layout.erb:7:in `block (2 levels) in singleton class'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/layout.erb:5:in `each'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/layout.erb:5:in `block in singleton class'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/layout.erb:-6:in `instance_eval'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/layout.erb:-6:in `singleton class'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/layout.erb:-8:in `__tilt_70224292572380'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:155:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:155:in `evaluate'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:96:in `render'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:822:in `render'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:831:in `block in render'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:831:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:831:in `render'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:666:in `erb'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam.rb:28:in `block in <class:CalabashDrishyam>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `block in compile!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/logger.rb:15:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:218:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:211:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+localhost - - [16/Jan/2016:17:12:19 PST] "GET / HTTP/1.1" 500 165111
+- -> /
+::1 - - [16/Jan/2016:17:12:19 -0800] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0076
+localhost - - [16/Jan/2016:17:12:19 PST] "GET /__sinatra__/500.png HTTP/1.1" 304 0
+http://localhost:4321/ -> /__sinatra__/500.png
+== Sinatra has ended his set (crowd applauds)
+[2016-01-16 17:12:50] FATAL SystemExit: exit
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `exit'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `block (2 levels) in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `block (2 levels) in setup_traps'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1505:in `start_server'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1443:in `run!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:25:in `block in <top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `block in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call_as_daemon'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:269:in `start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:295:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:193:in `block in run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:192:in `run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:20:in `<top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `load'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `<main>'
+[2016-01-16 17:12:50] INFO  going to shutdown ...
+[2016-01-16 17:12:50] INFO  WEBrick::HTTPServer#start done.
+[2016-01-16 17:13:07] INFO  WEBrick 1.3.1
+[2016-01-16 17:13:07] INFO  ruby 2.2.0 (2014-12-25) [x86_64-darwin14]
+== Sinatra (v1.4.6) has taken the stage on 4321 for development with backup from WEBrick
+[2016-01-16 17:13:07] INFO  WEBrick::HTTPServer#start: pid=74274 port=4321
+WARN: tilt autoloading 'tilt/erubis' in a non thread-safe way; explicit require 'tilt/erubis' suggested.
+::1 - - [16/Jan/2016:17:13:09 -0800] "GET / HTTP/1.1" 200 1431 0.0245
+localhost - - [16/Jan/2016:17:13:09 PST] "GET / HTTP/1.1" 200 1431
+- -> /
+::1 - - [16/Jan/2016:17:13:09 -0800] "GET /style.css HTTP/1.1" 304 - 0.0008
+localhost - - [16/Jan/2016:17:13:09 PST] "GET /style.css HTTP/1.1" 304 0
+http://localhost:4321/ -> /style.css
+== Sinatra has ended his set (crowd applauds)
+[2016-01-16 17:17:47] FATAL SystemExit: exit
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `exit'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `block (2 levels) in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `block (2 levels) in setup_traps'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1505:in `start_server'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1443:in `run!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:25:in `block in <top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `block in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call_as_daemon'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:269:in `start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:295:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:193:in `block in run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:192:in `run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:20:in `<top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `load'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `<main>'
+[2016-01-16 17:17:47] INFO  going to shutdown ...
+[2016-01-16 17:17:47] INFO  WEBrick::HTTPServer#start done.
+[2016-01-16 17:17:53] INFO  WEBrick 1.3.1
+[2016-01-16 17:17:53] INFO  ruby 2.2.0 (2014-12-25) [x86_64-darwin14]
+== Sinatra (v1.4.6) has taken the stage on 4321 for development with backup from WEBrick
+[2016-01-16 17:17:53] INFO  WEBrick::HTTPServer#start: pid=75170 port=4321
+WARN: tilt autoloading 'tilt/erubis' in a non thread-safe way; explicit require 'tilt/erubis' suggested.
+2016-01-16 17:17:57 - NoMethodError - undefined method `screenshot_embed' for #<CalabashDrishyam:0x007ff5e8b0d660>:
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/home.erb:18:in `block in singleton class'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/home.erb:-6:in `instance_eval'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/home.erb:-6:in `singleton class'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/home.erb:-8:in `__tilt_70347089351780'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:155:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:155:in `evaluate'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:96:in `render'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:822:in `render'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:666:in `erb'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam.rb:28:in `block in <class:CalabashDrishyam>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `block in compile!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/logger.rb:15:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:218:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:211:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+localhost - - [16/Jan/2016:17:17:56 PST] "GET / HTTP/1.1" 500 152769
+- -> /
+::1 - - [16/Jan/2016:17:17:57 -0800] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0072
+localhost - - [16/Jan/2016:17:17:57 PST] "GET /__sinatra__/500.png HTTP/1.1" 304 0
+http://localhost:4321/ -> /__sinatra__/500.png
+2016-01-16 17:18:33 - NoMethodError - undefined method `screenshot_embed' for #<CalabashDrishyam:0x007ff5e8dea090>:
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/home.erb:18:in `block in singleton class'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/home.erb:-6:in `instance_eval'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/home.erb:-6:in `singleton class'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam/views/home.erb:-8:in `__tilt_70347074830340'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:155:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:155:in `evaluate'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/tilt-2.0.1/lib/tilt/template.rb:96:in `render'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:822:in `render'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:666:in `erb'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/lib/calabash_drishyam.rb:28:in `block in <class:CalabashDrishyam>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `block in compile!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/logger.rb:15:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:218:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:211:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+localhost - - [16/Jan/2016:17:18:33 PST] "GET / HTTP/1.1" 500 152769
+- -> /
+::1 - - [16/Jan/2016:17:18:33 -0800] "GET /__sinatra__/500.png HTTP/1.1" 304 - 0.0008
+localhost - - [16/Jan/2016:17:18:33 PST] "GET /__sinatra__/500.png HTTP/1.1" 304 0
+http://localhost:4321/ -> /__sinatra__/500.png
+== Sinatra has ended his set (crowd applauds)
+[2016-01-17 10:55:32] FATAL SystemExit: exit
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `exit'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:262:in `block (2 levels) in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1526:in `block (2 levels) in setup_traps'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `select'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:174:in `block in start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:32:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/2.2.0/webrick/server.rb:162:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:34:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1505:in `start_server'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1443:in `run!'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:25:in `block in <top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:265:in `block in start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/daemonize.rb:84:in `call_as_daemon'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:269:in `start_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/application.rb:295:in `start'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/controller.rb:56:in `run'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:193:in `block in run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `call'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons/cmdline.rb:88:in `catch_exceptions'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/daemons-1.2.3/lib/daemons.rb:192:in `run_proc'
+	/Users/xmis/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/calabash_drishyam-0.1.0/bin/calabash_drishyam:20:in `<top (required)>'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `load'
+	/Users/xmis/.rbenv/versions/2.2.0/bin/calabash_drishyam:23:in `<main>'
+[2016-01-17 10:55:32] INFO  going to shutdown ...
+[2016-01-17 10:55:32] INFO  WEBrick::HTTPServer#start done.

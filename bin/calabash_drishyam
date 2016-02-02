@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+
+begin
+
+   puts "Drishyam Serviced"
+   require 'calabash_drishyam.rb'
+   require 'daemons'
+
+rescue
+
+  puts "Drishyam Rescued"
+  require 'rubygems'
+  require 'daemons'
+  path = File.expand_path '../lib',__FILE__
+  $:.unshift(path) if File.directory?(path) && !$:.include?(path)
+  require 'calabash_drishyam.rb'
+  
+end
+
+Daemons.run_proc(
+  'calabash_drishyam',
+   :log_output => true
+) do
+
+  CalabashDrishyam.run!
+  sleep 10
+  system("open 'http://localhost:4321/'")
+  
+end

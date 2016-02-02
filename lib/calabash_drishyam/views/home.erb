@@ -1,0 +1,97 @@
+<%
+    public_folder_files_before_screenshot = Dir.entries(ASSETS_PATH)
+
+  	public_folder_files_before_screenshot.each do |file_name|
+
+  		if file_name.start_with?(CALABASH_SCREENSHOT_FILE_NAME)
+
+  			delete_file_path = File.expand_path(file_name, ASSETS_PATH)
+  			File.delete delete_file_path
+
+  		end
+
+    end
+
+    screenshot_embed(:prefix => "#{ASSETS_PATH}", :name => "#{CALABASH_SCREENSHOT_FILE_NAME}")
+  	image_path = ""
+
+  	public_folder_files_after_screenshot = Dir.entries(ASSETS_PATH)
+
+  	public_folder_files_after_screenshot.each do |file_name|
+
+  		if file_name.start_with?(CALABASH_SCREENSHOT_FILE_NAME)
+
+            image_path = file_name
+            break
+            
+  		end
+
+  	end
+
+    parsed_query_objects = query "*"
+    
+    calabash_server_version_json = server_version
+    view_dimensions = calabash_server_version_json["screen_dimensions"]
+    view_scale = view_dimensions["scale"]
+    view_height = view_dimensions["height"]/view_scale
+    view_width = view_dimensions["width"]/view_scale
+
+    if landscape?
+        
+        temp = view_height
+        view_height = view_width
+        view_width = temp
+        
+    end
+
+%>
+
+<div id="wrap">    
+
+    <div id="sidebar">             
+      
+      <h1>VIEW OBJECTS</h1>
+      <div class="left-box">
+        <ul class="sidemenu" style="height:<%= view_height %>px">
+
+        <%
+
+	       parsed_query_objects.each do |sub_view|
+
+		   id = sub_view["id"]
+		   class_name = sub_view["class"]
+           #class_name = class_name.gsub('\','\\') unless class_name.nil?   
+		   label_name = sub_view["label"]
+           #label_name = label_name.gsub('\','//') unless label_name.nil?
+           text_name = sub_view["text"]
+           #text_name = text_name.gsub('/','//') unless text_name.nil?
+		   rect = sub_view["rect"]
+		   height = rect["height"]
+		   x = rect["x"]
+		   y = rect["y"]
+		   width = rect["width"]
+
+        %>
+            
+        <li><a onmouseover="highlightViewInScreenShot('<%= image_path %>',<%= x %>,<%= y %>,<%= width %>,<%= height %>)"><span class="red">Class:</span> <%= class_name %><br/><span class="red">Id:</span> <%= id %><br/><span class="red">Label:</span> <pre><%= label_name %></pre><br/><span class="red">Text:</span> <pre><%= text_name %></pre></a></li>
+            
+        <% end %>
+
+        </ul> 
+      </div>
+        
+    </div>    
+    
+              
+    <div id="main">       
+      
+      <h1>VIEW OBJECTS INSPECTOR</h1>
+      <div id="canvascontainer">
+        
+          <canvas id="canvas" width="<%= view_width %>" height="<%= view_height %>"> Canvas Not Supported.</canvas>
+          
+      </div>
+                        
+    </div>      
+    
+</div>
